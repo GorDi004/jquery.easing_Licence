@@ -30,7 +30,9 @@
     "build": "uglifyjs jquery.easing.js --compress --mangle -o jquery.easing.min.js"
   },
   "engines": {},
-  "dependencies": {},
+  "dependencies": {
+    "license-checker": "^25.0.1"
+  },
   "devDependencies": {
     "eslint": "^7.6.0",
     "eslint-plugin-html": "^6.0.2",
